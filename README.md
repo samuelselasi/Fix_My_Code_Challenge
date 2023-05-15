@@ -30,3 +30,35 @@ $ ./0-fizzbuzz.py 50
 $
 ```
 `15` should print `FizzBuzz` not `Fizz`
+
+[1. Print square](./1-print_square.js)
+
+Please take a look at my implementation of printing a square in Javascript: [source code](https://github.com/holbertonschool/0x00-Fix_My_Code_Challenge/blob/master/1-print_square.js)
+
+Something is going wrong….
+```
+$ ./1-print_square.js 4
+####
+####
+####
+####
+$ ./1-print_square.js 10
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+$
+```
+`./1-print_square.js 10` should print a square of size 10…
