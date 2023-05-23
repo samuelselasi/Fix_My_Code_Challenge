@@ -71,3 +71,8 @@ $ ./delete_dnodeint
 $
 ```
 It doesn’t look right…
+
+## Fix
+
+* Modify `if (0 == index)` to `if (index == 0)` to fix betty error on line `34`
+* on line `46`, modify `(*head)->prev->prev = (*head)->prev;` to delete the next node instead of the previous by replacing with `(*head)->prev->next = (*head)->next;`
