@@ -19,3 +19,4 @@ You should not recode everything, just fix it!
 
 ## Projects
 1. [0x00-challenge](./0x00-challenge)
+2. [0x01-challenge](./0x01-challenge)
