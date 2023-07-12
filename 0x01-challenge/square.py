@@ -18,7 +18,7 @@ class Square():
 
     def perimeter_of_my_square(self) -> int:
         """Perimeter of the square"""
-        return (self.width * 2) + (self.height * 2)
+        return (self.width * 2) + (self.width * 2)
 
     def __str__(self) -> str:
         """Print instances"""
