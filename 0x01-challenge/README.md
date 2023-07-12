@@ -41,3 +41,10 @@ $ curl -XGET http://0.0.0.0:5000/api/v1/status
 }
 $
 ```
+
+[1. My square](./square.py)
+
+I love geometry!
+
+Look [my square](https://github.com/alx-tools/0x01-Fix_My_Code_Challenge/blob/master/square.py), it’s perfect? No? Should I change something?
+
