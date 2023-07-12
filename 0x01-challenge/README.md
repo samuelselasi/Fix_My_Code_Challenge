@@ -48,3 +48,12 @@ I love geometry!
 
 Look [my square](https://github.com/alx-tools/0x01-Fix_My_Code_Challenge/blob/master/square.py), it’s perfect? No? Should I change something?
 
+[2. Step 2: User model](./user.py)
+
+I’m running into a serious problem!
+
+I just start my OOP project and nothing works…
+
+Could you help me please? My code is [here](https://github.com/alx-tools/0x01-Fix_My_Code_Challenge/blob/master/user.py).
+
+Thank you!
