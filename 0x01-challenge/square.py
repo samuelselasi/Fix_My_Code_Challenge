@@ -1,13 +1,14 @@
 #!/usr/bin/python3
+"""Python module to calculate perimeter and area of a square"""
+
 
 class Square():
     """Class that calculates area and perimeter of a Square"""
 
-    width = 0
-    height = 0
-
-    def __init__(self, *args, **kwargs):
+    def __init__(self, width=0, height=0, **kwargs):
         """Function that initializes instances"""
+        self.width = width
+        self.height = height
         for key, value in kwargs.items():
             setattr(self, key, value)
 
