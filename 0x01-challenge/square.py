@@ -4,22 +4,23 @@
 
 class Square():
     """Class that calculates area and perimeter of a Square"""
-    def __init__(self, width: int = 0, height: int = 0, **kwargs):
+    width = 0
+    height = 0
+
+    def __init__(self, *args, **kwargs):
         """Function that initializes instances"""
-        self.width = width
-        self.height = height
         for key, value in kwargs.items():
             setattr(self, key, value)
 
-    def area_of_my_square(self) -> int:
+    def area_of_my_square(self):
         """ Area of the square """
-        return (self.width * self.height)
+        return self.width * self.height
 
-    def perimeter_of_my_square(self) -> int:
+    def perimeter_of_my_square(self):
         """Perimeter of the square"""
         return (self.width * 2) + (self.height * 2)
 
-    def __str__(self) -> str:
+    def __str__(self):
         """Print instances"""
         return "{}/{}".format(self.width, self.height)
 
