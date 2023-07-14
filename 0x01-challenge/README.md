@@ -69,3 +69,14 @@ Also, when you’re done, could you add a new feature please?
 I would like to add a boolean `online` for each `Post` object with a default value `true`. With this boolean, I will be able to hide/show some blog posts from the listing. I will also need a way to change this boolean in the `Post#edit` route. Could you do this for me?
 
 Thank you!
+
+[4. Never leave the office](./react-blog)
+
+I’m coming back from 2 weeks of holidays in France and when I arrived at the office, the first words from my marketing co-worker were: “Hi, how was your holiday? by the way, I think I broke the website…”
+
+**WHAT???**
+
+Ok, let’s jump on it and fix [it](https://github.com/alx-tools/0x01-Fix_My_Code_Challenge/tree/master/react-blog)!
+
+Arf, I have also the pagination to fix… I didn’t have time before my break to look at it…
+
